@@ -28,18 +28,6 @@ reloadBtn.addEventListener('click', () => {
     document.location.reload();
 });
 
-// player choice
-// function playerPrompt() {
-//     let playerChoice = prompt('rock, paper or scissors?');
-//     playerChoice = playerChoice.toLowerCase();
-
-//     while (playerChoice != 'rock' && playerChoice != 'paper' && playerChoice != 'scissors') {
-//         playerChoice = prompt('enter a valid option. rock, paper or scissors?');
-//     }
-//     return playerChoice;
-// }
-
-
 // computer choice
 function computerPlay() {
     let choices = ['rock', 'paper', 'scissors'];
@@ -50,7 +38,6 @@ function computerPlay() {
 // single round of game play
 function playRound() {
 
-    // playerSelection = playerSelection;
     computerSelection = computerPlay();
 
     if (playerSelection === computerSelection) {
